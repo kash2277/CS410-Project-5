@@ -2,5 +2,5 @@
 
 #pragma once
 
-#define SSID "NETGEAR"
-#define PASSWORD "thirstysun490"
+#define SSID "*****"
+#define PASSWORD "*****"
