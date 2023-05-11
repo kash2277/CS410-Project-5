@@ -1,6 +1,6 @@
 # CS410-Project-5
 End-User Manual:
-The end-user manual provides instructions on how to setup, build, run and use the Java code. Below are the steps:
+The end-user manual provides instructions on how to setup, build, run and the code. Below are the steps:
 
 				PROJECT JOYSTICK
                     
