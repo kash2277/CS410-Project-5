@@ -2,7 +2,7 @@
 End-User Manual:
 The end-user manual provides instructions on how to setup, build, run and use the Java code. Below are the steps:
 
-										PROJECT JOYSTICK
+				PROJECT JOYSTICK
                     
 Project Description:- 
 Your IoT device (which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). Send this critical data to your app (which is running an atSign) so that this data can be sent securely over the Internet.  
@@ -96,7 +96,7 @@ For Receiving Data and displaying it in a JAVA SWING(GUI) Application
 
 **OUTPUT:**
 
-JAVA SWING App![Uploading Screenshot 2566-05-11 at 4.38.26 AM.png…]()
+JAVA SWING App!
 
 
 
