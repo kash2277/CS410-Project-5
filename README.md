@@ -5,7 +5,8 @@ The end-user manual provides instructions on how to setup, build, run and use th
 				PROJECT JOYSTICK
                     
 Project Description:- 
-Your IoT device (which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). Send this critical data to your app (which is running an atSign) so that this data can be sent securely over the Internet.  
+Your IoT device (which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). 
+Send this critical data to your app (which is running an atSign) so that this data can be sent securely over the Internet. 
 
 Project resources required :-
 Java Development Kit (JDK),VScode,ESP32,PS2 Joystick Sensor Module
@@ -70,22 +71,38 @@ Attempting to connect to *******
 ..
 Connected!
 IP address: 12345678901
+
 Connected to root.atsign.org:64
+
  06rcyYJpJkKtcK8eBDGYevE7S+n10E1qM2UJz+m58Uc8VUSR8pCYc6b50xmMaQLUjNeQqt2PqyH+gNaKjgQ6UeBdvYpJ01bPawFalTk8k8eu0q6ZGKfbAaAuXMDMvwIDAQAB import: 0
+ 
 complete: 0
+
 public key check: 0
+
 plain_text: SRKOLulFV7WKPY1BAaCnRDgFJiUVkvciFXtZSUaBxDw=
+
 73 52 6b 30 6c 75 6c 46 56 37 57 46 50 59 31 42 41 61 43 6e 52 44 67 46 4a 69 55 56 6b 76 63 69 46 58 74 5a 53 55 61 42 78 44 77 3d
+
 seed: 0
+
 encrypt: 0
+
 command: update:@leopeaceful21:shared key@technological25 ShF7qKvtNTeGd3zrhceacnLeLeh/qG0K3XMt04PZ1aVIP9VyX9ctQsNZ2mmoXXCE32W
 LT+s/B9ZA3cK Yg4RovYacK10qyKYknDOnBbI+YLhA2v+03JWNT sm4G/84FSBsAd/aLWzIGD/ME+5WnCifYd5qS9ZGI83PRdvdJF2VBWLCY6J3Aks11ljmqPI5e2vQv6lyI3Hjsh1M3FQ/voDfUI1YO fLATNeK3IaMRe leAqgGNm/Pqptd9HbpFrNCP1CvyKDV×7a/Ck/7IU/tgP90ykdTdkOtPGAvSkTa/eSVmCdCbYDdEiY×saSBurEJZu+5+AUAnPEjS+Np/4BUAA== encrypted value: "XhYx7hrVksX+geObiBBJR70TMUgBLaJb3e(D7 r042jU="
+
 command: "up
+
 date: @leopeaceful21: testatechnological25 XhYx7hrVksX+geObiBBJR70TMUgBLaJb3eD7 r042¡U=" 
+
+
 response: "17"
 
 
 When you have receive a value for the response as shown in above snippet, the response value indicates the number of connections made to send data from ESP32 indicating response is success.
+
+
+
 
 
 
@@ -117,6 +134,7 @@ For Receiving Data and displaying it in a JAVA SWING(GUI) Application
 
 
 
+
 **OUTPUT:**
 
 JAVA SWING App!
@@ -124,8 +142,11 @@ JAVA SWING App!
 
 
 The console should display the joystick values received from the server using an atprotocol.The label shows single point console that moves according to the joystick module movements.
+
 X and Y indicates horizontal and vertical movements of joystick.The X and Y default values is the default position of console on the Joystick Module and z = 1 indicates the button is pressed.
+
 Move the joystick to change the position of the console label on the GUI console.
+
 Press the button on the joystick to change the color of the black console label to red on the GUI console label.
  
 
