@@ -28,9 +28,7 @@ CS410/Project joystick,JAVA
 
 -The atPlatform only supports the Arduino framework for the ESP32.
 
--Open VSCode and install the PlatformIO VScode extension. You will use this extension to interact with the ESP32.
-
--Go to the PlatformIO Home 
+-Open VSCode and Go to the PlatformIO Home 
 
 -Install the Espressif32 platform by clicking on the Platforms > Embedded tab and searching for Espressif32 and clicking on the Install button.
 
