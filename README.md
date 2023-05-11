@@ -22,33 +22,47 @@ CS410/Project joystick,JAVA
 **Installation:-**
 
 -Install VSCode and the PlatformIO VSCode extension.
+
 -You will need an ESP32 and a USB-A to micro-USB cable data cable to connect it to your computer.
+
 -The atPlatform only supports the Arduino framework for the ESP32.
+
 -Open VSCode and install the PlatformIO VScode extension. You will use this extension to interact with the ESP32.
+
 -Go to the PlatformIO Home 
+
 -Install the Espressif32 platform by clicking on the Platforms > Embedded tab and searching for Espressif32 and clicking on the Install button.
+
 
 **Building the Project:**
 
  -Go to Projects and press + Create New Project. 
+ 
  -Give a name to your project, select the Espressif ESP32 Dev Module board, and select the "Arduino" framework.Select a location for your project and click "Finish."
+ 
  -Go back to the PlatformIO Home and click on the Libraries tab. Search for at_client by JeremyTubongbanua and click on the Install button. This will install the at_client library in your project. Do the same for the ArduinoJson library by Benoit Blanchon.
 
 **Extract the folders from CS410/Project-5 into your project.**
 
 In data folder in the root of the project,copy the .atKeys file into the data folder.The at_sign keys can be found in link https://my.atsign.com/login by creating atsign account.
+
 In constants.h file in include folder in project joystick,change the connection credentials as per the machine the connected to ESP32.
 SSID "******"
- PASSWORD "******"
+PASSWORD "******"
 
 
 **Uploading the Project:**
 
 Open the main.cpp file in the src folder and 
+
 -Make sure to change the value of joystick pins for input reading according to your joystick connection with ESP32 and the name of the sender, recipient atsign keys and new at_key name for the message.
+
 -Run "Build" under "Project Tasks.”This will give if there are any errors in the project.
+
 -Now upload the project to the ESP32. First, put the ESP32 into download mode by holding down the BOOT button and pressing the RESET button while still holding the BOOT button. It should be in download mode as long as you are holding BOOT down. 
+
 -Run "Upload and Monitor" under "Project Tasks”.Your output should be similar to the snippet below. If it is not, ensure that the .atKeys are uploaded and that you are using the correct SSID and Password.
+
 
 **OUTPUT SNIPPET**
 
@@ -82,16 +96,25 @@ For Receiving Data and displaying it in a JAVA SWING(GUI) Application
 
 **Installation:-**
 
+
 -Download and install the Java Development Kit (JDK) on your system.
+
 -Download and install an Integrated Development Environment (IDE) for Java development.VScode suggested. -Install required JAVA extensions.
+
 -Download the code as a zip file and extract it to a folder
+
 -Open the IDE and create a new project.
+
 -Add the downloaded Java code files to the project.
 
 **RUN:**
+
 -change the name of the sender, recipient atsign keys.
+
 -make sure at_keys in keys folder inside JAVA folder are your at_keys
+
 -Run the Java executable file to start the console.
+
 
 
 **OUTPUT:**
