@@ -119,21 +119,22 @@ For Receiving Data and displaying it in a JAVA SWING(GUI) Application
 
 -Download and install the Java Development Kit (JDK) on your system.
 
--Download and install an Integrated Development Environment (IDE) for Java development.VScode suggested. -Install required JAVA extensions.
+-Download and install an Integrated Development Environment (IDE) for Java development.VScode suggested.Install required JAVA extensions.
 
--Download the code as a zip file and extract it to a folder
+-Download the JAVA zip file and extract it to a folder
 
 -Open the IDE and create a new project.
 
--Add the downloaded Java code files to the project.
+-Add the downloaded JAVA files to the project.
 
 **RUN:**
 
--change the name of the sender, recipient atsign keys in .
 
--make sure at_keys in Keys folder inside JAVA folder are your at_keys
+-change the name of the sender, recipient atsign keys in App.java.
 
--Run the Java executable file to start the App.
+-make sure at_keys in Keys folder inside JAVA folder are your at_keys.
+
+-Run the App.java file to start the App.
 
 
 
