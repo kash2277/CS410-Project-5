@@ -9,8 +9,12 @@ The IoT device ESP32(which is running an atSign) will be sensing inputs from a j
 
 Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet. 
 
-Project resources required:-
-Java Development Kit (JDK),VScode,ESP32,PS2 Joystick Sensor Module
+Project Hardware requirements:-
+ESP32,Joystick module with x and y analog outputs and button output,Wiring to connect the joystick module to the ESP32 
+
+Project Software requirements:
+Java Development Kit (JDK),VScode,PlatformIO,at_client library
+
 
 Project folders to extract:-
 CS410/Project joystick,JAVA
