@@ -1,17 +1,18 @@
 # CS410-Project-5
 End-User Manual:
-The end-user manual provides instructions on how to setup, build, run and the code. Below are the steps:
 
-				PROJECT JOYSTICK
+
+**PROJECT JOYSTICK**
                     
 Project Description:- 
 The IoT device ESP32(which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). 
+
 Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet. 
 
-Project resources required :-
+Project resources required:-
 Java Development Kit (JDK),VScode,ESP32,PS2 Joystick Sensor Module
 
-Project folders to extract :-
+Project folders to extract:-
 CS410/Project joystick,JAVA
 
 
@@ -21,7 +22,7 @@ CS410/Project joystick,JAVA
   
   For sending Joystick data from ESP32
 
-**Installation:-**
+**Installation:**
 
 -Install VSCode and the PlatformIO VSCode extension.
 
@@ -68,7 +69,7 @@ Open the main.cpp file in the src folder and
 -Run "Upload and Monitor" under "Project Tasks”.Your output should be similar to the snippet below. If it is not, ensure that the .atKeys are uploaded and that you are using the correct SSID and Password.
 
 
-**OUTPUT SNIPPET**
+**OUTPUT SNIPPET:**
 
 Attempting to connect to *******
 ..
@@ -102,7 +103,7 @@ date: @leopeaceful21: testatechnological25 XhYx7hrVksX+geObiBBJR70TMUgBLaJb3eD7 
 response: "17"
 
 
-When you have receive a value for the response as shown in above snippet, the response value indicates the number of connections made to send data from ESP32 indicating response is success.
+When you have receive a value for the response as shown in above snippet, the response value indicates the number of connections made to send data from ESP32,indicating response is success.
 
 
 
@@ -112,7 +113,7 @@ When you have receive a value for the response as shown in above snippet, the re
 **2) JAVA documentation **
 
 
-For Receiving Data and displaying it in a JAVA SWING(GUI) Application
+For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application
 
 **Installation:-**
 
@@ -145,15 +146,17 @@ JAVA SWING App!
 
 
 
-The console should display the joystick values received from the server using an atprotocol.The label shows single point console that moves according to the joystick module movements.
+The console will display the joystick values in textarea od output window,received from the server using an atprotocol.
+
+The label in output window shows single point console that moves according to the joystick module movements.
 
 You can find the screenshot of Output Window OutputScreenshot.png
 
-X and Y indicates horizontal and vertical movements of joystick.The X and Y default values is the default position of console on the Joystick Module and z = 1 indicates the button is pressed.
+X and Y indicates horizontal and vertical movements of joystick.The X and Y values displayed without any movement in joystick are the default position of console on the Joystick Module and z = 1 indicates that button is pressed.
 
-Move the joystick to change the position of the console label on the GUI console.
+Move the joystick and look at the X and Y values received.You can also notice console point movements.
 
-Press the button on the joystick to change the color of the black console label to red on the GUI console label.
+Press the button on the joystick to change the color of the black console point to red.
  
 
 
