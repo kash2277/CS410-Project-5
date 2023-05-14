@@ -5,18 +5,19 @@ The end-user manual provides instructions on how to setup, build, run and the co
 				PROJECT JOYSTICK
                     
 Project Description:- 
-Your IoT device (which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). 
-Send this critical data to your app (which is running an atSign) so that this data can be sent securely over the Internet. 
+The IoT device ESP32(which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). 
+Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet. 
 
 Project resources required :-
 Java Development Kit (JDK),VScode,ESP32,PS2 Joystick Sensor Module
 
-Project folders :-
+Project folders to extract :-
 CS410/Project joystick,JAVA
 
 
  
-	**1)CS410/Project joystick documentation **
+**1)CS410/Project joystick documentation**
+  
   
   For sending Joystick data from ESP32
 
@@ -24,13 +25,15 @@ CS410/Project joystick,JAVA
 
 -Install VSCode and the PlatformIO VSCode extension.
 
--You will need an ESP32 and a USB-A to micro-USB cable data cable to connect it to your computer.
+-You will need an ESP32 and a USB-A to micro-USB data cable to connect it to your computer.
 
 -The atPlatform only supports the Arduino framework for the ESP32.
 
 -Open VSCode and Go to the PlatformIO Home 
 
 -Install the Espressif32 platform by clicking on the Platforms > Embedded tab and searching for Espressif32 and clicking on the Install button.
+
+-ESP32 image can be found at ESP32.HEIC 
 
 
 **Building the Project:**
@@ -41,9 +44,11 @@ CS410/Project joystick,JAVA
  
  -Go back to the PlatformIO Home and click on the Libraries tab. Search for at_client by JeremyTubongbanua and click on the Install button. This will install the at_client library in your project. Do the same for the ArduinoJson library by Benoit Blanchon.
 
-**Extract the folders from CS410/Project-5 into your project.**
+**Extract the folders from CS410/Project-5 into your project folder.**
 
-In data folder in the root of the project,copy the .atKeys file into the data folder.The at_sign keys can be found in link https://my.atsign.com/login by creating atsign account.
+In data folder in the root of the project,copy the .atKeys file into the data folder.
+
+The at_sign keys can be found in the link https://my.atsign.com/login . By creating atsign account,choose the name for your at_sign keys to create them.Make sure to download the Backup Keys for the atsign keys you have created.
 
 In constants.h file in include folder in project joystick,change the connection credentials as per the machine the connected to ESP32.
 SSID "******"
@@ -54,9 +59,9 @@ PASSWORD "******"
 
 Open the main.cpp file in the src folder and 
 
--Make sure to change the value of joystick pins for input reading according to your joystick connection with ESP32 and the name of the sender, recipient atsign keys and new at_key name for the message.
+-Make sure you change the value of joystick pins for input reading according to your joystick connection with ESP32 and make sure you change the name of the sender, recipient atsign keys and new at_key name for the message.
 
--Run "Build" under "Project Tasks.”This will give if there are any errors in the project.
+-Run "Build" under "Project Tasks”.This will give if there are any errors in the project.
 
 -Now upload the project to the ESP32. First, put the ESP32 into download mode by holding down the BOOT button and pressing the RESET button while still holding the BOOT button. It should be in download mode as long as you are holding BOOT down. 
 
@@ -104,7 +109,7 @@ When you have receive a value for the response as shown in above snippet, the re
 
 
 
-	**2) JAVA documentation **
+**2) JAVA documentation **
 
 
 For Receiving Data and displaying it in a JAVA SWING(GUI) Application
@@ -124,11 +129,11 @@ For Receiving Data and displaying it in a JAVA SWING(GUI) Application
 
 **RUN:**
 
--change the name of the sender, recipient atsign keys.
+-change the name of the sender, recipient atsign keys in .
 
--make sure at_keys in keys folder inside JAVA folder are your at_keys
+-make sure at_keys in Keys folder inside JAVA folder are your at_keys
 
--Run the Java executable file to start the console.
+-Run the Java executable file to start the App.
 
 
 
@@ -140,6 +145,8 @@ JAVA SWING App!
 
 
 The console should display the joystick values received from the server using an atprotocol.The label shows single point console that moves according to the joystick module movements.
+
+You can find the screenshot of Output Window OutputScreenshot.png
 
 X and Y indicates horizontal and vertical movements of joystick.The X and Y default values is the default position of console on the Joystick Module and z = 1 indicates the button is pressed.
 
