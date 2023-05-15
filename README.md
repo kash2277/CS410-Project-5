@@ -13,7 +13,7 @@ Project Hardware requirements:-
 ESP32,Joystick module with x and y analog outputs and button output,Wiring to connect the joystick module to the ESP32 
 
 Project Software requirements:
-Java Development Kit (JDK),VScode,PlatformIO,at_client library
+Java Development Kit (JDK),VScode,PlatformIO
 
 
 Project folders to extract:-
@@ -104,10 +104,12 @@ command: "up
 date: @leopeaceful21: testatechnological25 XhYx7hrVksX+geObiBBJR70TMUgBLaJb3eD7 r042¡U=" 
 
 
-response: "17"
+response: "1722"
 
 
 When you have receive a value for the response as shown in above snippet, the response value indicates the number of connections made to send data from ESP32,indicating response is success.
+
+After sending the data, delay(100) is called, which pauses the execution of the program for 100 milliseconds before sensing the joystcik values to read and send them.
 
 
 
@@ -132,15 +134,16 @@ For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application
 
 -Add the downloaded JAVA files to the project.
 
+
+
 **RUN:**
 
 
 -change the name of the sender, recipient atsign keys in App.java.
 
--make sure at_keys in Keys folder inside JAVA folder are your at_keys.
+-make sure the at_keys in Keys folder inside JAVA are your at_keys.
 
 -Run the App.java file to start the App.
-
 
 
 
@@ -148,19 +151,21 @@ For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application
 
 JAVA SWING App!
 
-
-
-The console will display the joystick values in textarea od output window,received from the server using an atprotocol.
+The console will display the joystick values in textarea of output window,received from the server.
 
 The label in output window shows single point console that moves according to the joystick module movements.
 
-You can find the screenshot of Output Window OutputScreenshot.png
+**You can find the screenshot of Output Window OutputScreenshot.png**
 
 X and Y indicates horizontal and vertical movements of joystick.The X and Y values displayed without any movement in joystick are the default position of console on the Joystick Module and z = 1 indicates that button is pressed.
 
 Move the joystick and look at the X and Y values received.You can also notice console point movements.
 
 Press the button on the joystick to change the color of the black console point to red.
+
+The code continues to execute in an infinite loop, repeatedly fetching data from the shared key, formatting it, and displaying it in the application's UI until the program is terminated externally
+
+You can find a quick explanation video to run the App at https://www.youtube.com/watch?v=ng-htI6Ms9I
  
 
 
