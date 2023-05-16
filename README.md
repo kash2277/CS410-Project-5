@@ -4,23 +4,28 @@ End-User Manual:
 
 
 
-**PROJECT JOYSTICK **
+   **PROJECT JOYSTICK **
 
 
-Project Description:- 
+**Project Description:- **
 
 The IoT device ESP32(which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet.
 
 
-Project Hardware requirements:-
+**Project Hardware requirements:-**
 
 ESP32,Joystick module with x and y analog outputs and button output,Wiring to connect the joystick module to the ESP32 
 
 
-Project Software requirements: Java Development Kit (JDK),VScode,PlatformIO 
+**Project Software requirements:-** 
+
+Java Development Kit (JDK),VScode,PlatformIO 
 
 
-Project folders to extract:- CS410/Project joystick,JAVA 
+**Project folders to extract:-**
+
+CS410/Project joystick,JAVA 
+
 
 
 **1)CS410/Project joystick documentation **
