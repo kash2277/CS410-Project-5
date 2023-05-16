@@ -165,7 +165,7 @@ Press the button on the joystick to change the color of the black console point 
 
 The code continues to execute in an infinite loop, repeatedly fetching data from the shared key, formatting it, and displaying it in the application's UI until the program is terminated externally
 
-You can find a quick explanation video to run the App at https://www.youtube.com/watch?v=ng-htI6Ms9I
+You can find a quick explanation video for the code at https://www.youtube.com/watch?v=FQ0Ldu9kGHc and a video to run the App at https://www.youtube.com/watch?v=ng-htI6Ms9I
  
 The code documentation for the ESP32 code and Java App code is available in 'Documentation' folder 
 
