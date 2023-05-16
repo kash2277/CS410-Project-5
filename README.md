@@ -1,4 +1,4 @@
-# CS410-Project-5
+# CS410-Project-5-Joystick
 End-User Manual:
 
 
@@ -167,5 +167,6 @@ The code continues to execute in an infinite loop, repeatedly fetching data from
 
 You can find a quick explanation video to run the App at https://www.youtube.com/watch?v=ng-htI6Ms9I
  
+The code documentation for the ESP32 code and Java App code is available in 'Documentation' folder 
 
 
