@@ -27,7 +27,7 @@ CS410/Project joystick,JAVA
 
 
 
-**1)CS410/Project joystick documentation **
+**1)CS410/Project joystick documentation**
 
 
 
@@ -35,7 +35,7 @@ For sending Joystick data from ESP32
 
 
 
-**Installation: -**
+**Installation:-**
 
 
 Install VSCode and the PlatformIO VSCode extension.
@@ -50,7 +50,7 @@ Install VSCode and the PlatformIO VSCode extension.
 
 
 
-**Building the Project:**
+**Building the Project:-**
 
 
 -Go to Projects and press + Create New Project. 
@@ -74,7 +74,7 @@ PASSWORD "******"
 -The ESP32 image can be found at ESP32.HEIC image above.
 
 
-**Uploading the Project:**
+**Uploading the Project:-**
 
 
 Open the main.cpp file in the src folder and 
@@ -89,7 +89,7 @@ Open the main.cpp file in the src folder and
 
 
 
-**OUTPUT SNIPPET: **
+**OUTPUT SNIPPET:-**
 
 
 Attempting to connect to ******* ..
@@ -117,14 +117,14 @@ After sending the data, delay(100) is called, which pauses the execution of the 
 
 
 
-**2) JAVA documentation **
+**2)JAVA documentation**
 
 
 For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application 
 
 
 
-**Installation:- **
+**Installation:-**
 
 
 -Download and install the Java Development Kit (JDK) on your system. 
@@ -139,7 +139,7 @@ For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application
 
 
 
-**RUN:**
+**RUN:-**
 
 
 -change the name of the sender, recipient atsign keys in App.java. 
@@ -150,7 +150,7 @@ For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application
 
 
 
-**OUTPUT:**
+**OUTPUT:-**
 
 
 JAVA SWING App! 
