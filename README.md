@@ -6,28 +6,28 @@ End-User Manual:
   ****PROJECT JOYSTICK****
 
 
-****Project Description:-****
+****PROJECT DESCRIPTION:-****
 
 The IoT device ESP32(which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet.
 
 
-**Project Hardware requirements:-**
+**PROJECT HARDWARE REQUIREMENTS:-**
 
 ESP32,Joystick module with x and y analog outputs and button output,Wiring to connect the joystick module to the ESP32 
 
 
-**Project Software requirements:-** 
+**PROJECT SOFTWARE REQUIREMENTS:-** 
 
 Java Development Kit (JDK),VScode,PlatformIO 
 
 
-**Project folders to extract:-**
+**PROJECT FOLDERS TO EXTRACT:-**
 
 CS410/Project joystick,JAVA 
 
 
 
-**1)CS410/Project joystick documentation**
+**1)CS410/Project joystick DOCUMENTATION**
 
 
 
@@ -35,7 +35,7 @@ For sending Joystick data from ESP32
 
 
 
-**Installation:-**
+**INSTALLATION:-**
 
 
 Install VSCode and the PlatformIO VSCode extension.
@@ -50,7 +50,7 @@ Install VSCode and the PlatformIO VSCode extension.
 
 
 
-**Building the Project:-**
+**BUILDING THE PROJECT:-**
 
 
 -Go to Projects and press + Create New Project. 
@@ -74,7 +74,7 @@ PASSWORD "******"
 -The ESP32 image can be found at ESP32.HEIC image above.
 
 
-**Uploading the Project:-**
+**UPLOADING THE PROJECT:-**
 
 
 Open the main.cpp file in the src folder and 
@@ -117,14 +117,14 @@ After sending the data, delay(100) is called, which pauses the execution of the 
 
 
 
-**2)JAVA documentation**
+**2)JAVA DOCUMENTATION**
 
 
 For Receiving Joystick Data and displaying it in a JAVA SWING(GUI) Application 
 
 
 
-**Installation:-**
+**INSTALLATION-**
 
 
 -Download and install the Java Development Kit (JDK) on your system. 
