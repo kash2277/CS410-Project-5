@@ -6,7 +6,7 @@ End-User Manual:
   ****PROJECT JOYSTICK****
 
 
-****Project Description:- ****
+****Project Description:-****
 
 The IoT device ESP32(which is running an atSign) will be sensing inputs from a joystick (buttons and the joystick module). Sending this critical data to the JAVA app (which is running an atSign) so that this data can be sent securely over the Internet.
 
