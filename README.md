@@ -1,5 +1,5 @@
 # CS410-Project-5-Joystick
-End-User Manual:
+
 
 
 
